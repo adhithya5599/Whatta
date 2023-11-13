@@ -1,0 +1,3 @@
+[submodule "Whatta/vendor/spdlog"]
+	path = Whatta/vendor/spdlog
+	url = https://github.com/gabime/spdlog
