@@ -4,6 +4,7 @@
 	extern Whatta::Application* Whatta::CreateApplication();
 	int main(int argc, char** argv)
 	{
+		Whatta::Log::Init();
 		auto app = Whatta::CreateApplication();
 		app->Run();
 		delete app;
