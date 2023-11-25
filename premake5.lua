@@ -12,8 +12,11 @@ project "Whatta"
 	targetdir ("bin/" ..outputdir.. "/%{prj.name}")
 	objdir ("bin-int/" ..outputdir.. "/%{prj.name}")
 
+	pchheader "whpch.h"
+	pchsource "Whatta/src/whpch.cpp"
+
 	files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
-	includedirs { "%{prj.name}/vendor/spdlog/include" }
+	includedirs { "%{prj.name}/vendor/spdlog/include", "%{prj.name}/src" }
 
 	filter "system:windows"
 		cppdialect "C++17"

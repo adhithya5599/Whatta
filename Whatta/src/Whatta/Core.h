@@ -9,3 +9,5 @@
 #else
 	#error Whatta only supports Windows!!!
 #endif // WH_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)

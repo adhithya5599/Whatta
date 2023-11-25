@@ -4,6 +4,9 @@
     <Filter Include="Whatta">
       <UniqueIdentifier>{6EF560DA-5A97-8BB0-4352-9F042F931201}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Whatta\Events">
+      <UniqueIdentifier>{9279DABE-FE39-56F5-C774-9F7233F49AD1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Whatta.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Whatta\EntryPoint.h">
       <Filter>Whatta</Filter>
     </ClInclude>
+    <ClInclude Include="src\Whatta\Events\ApplicationEvent.h">
+      <Filter>Whatta\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Whatta\Events\Event.h">
+      <Filter>Whatta\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Whatta\Events\KeyEvent.h">
+      <Filter>Whatta\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Whatta\Events\MouseEvent.h">
+      <Filter>Whatta\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Whatta\Log.h">
       <Filter>Whatta</Filter>
     </ClInclude>
+    <ClInclude Include="src\whpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Whatta\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Whatta\Log.cpp">
       <Filter>Whatta</Filter>
     </ClCompile>
+    <ClCompile Include="src\whpch.cpp" />
   </ItemGroup>
 </Project>

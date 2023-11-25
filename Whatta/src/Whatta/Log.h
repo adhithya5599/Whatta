@@ -1,9 +1,11 @@
+#pragma warning(push)
+#pragma warning(disable:4251)
+#pragma warning(pop)
 #pragma once
-
-#include <memory>
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Whatta {
 
